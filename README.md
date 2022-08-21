@@ -42,5 +42,5 @@ Improvements to Godot 3.x Path Node:
 - Since Godot 3.5, clicking on a Node in the SceneTree while you're on the Script Editor doesn't switch to the 3D Editor. This makes the gizmos not appear correctly when you do switch to the 3D Editor. Select another Node then re-select the Path Node.
 
 ## Etc.
-- Developed in Godot 3.4.4 and 3.5. Should work in other 3.x versions, but I didn't test;
+- Uses get_meta with default parameters, which was introduced in 3.5. For previous versions, some refactoring is required;
 - Shout out to Waterways (https://github.com/Arnklit/Waterways), as I inspected that code several times to understand stuff.
